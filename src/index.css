@@ -64,7 +64,7 @@ blockquote {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  
+  color: var(--grey-primary);
 }
 
 .subpage-resources-list-item:visited {
