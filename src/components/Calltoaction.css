@@ -1,0 +1,45 @@
+
+.button-contact {
+    background-color: transparent;
+    border: none;
+    font-family: 'Jost';
+    color: var(--lightblue-primary);
+}
+
+.button-contact p {
+    font-size: var(--mobilebody);
+}
+
+.cta {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta-text {
+    max-width: 70vw;
+}
+
+h3 {
+    font-size: var(--mobilebody);
+    font-weight: 400;
+}
+
+@media (min-width: 750px) {
+    .cta-text {
+        max-width: 400px;
+    }
+
+    h3 {
+            font-size: var(--webbody);
+    }
+}
+
+@media (min-width: 900px) {
+    .button-contact p {
+        font-size: var(--webbody);
+    }
+}

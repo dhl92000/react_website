@@ -1,0 +1,93 @@
+:root {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #393937;
+  
+  background-color: #FFFFFF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color-scheme: light dark; */
+
+  --lightblue-primary: #688BBC;
+  --lightblue-seconday: #AAC0DE;  
+  --taupe: #C8C2B9;
+  --grey-primary: #393937;
+  --grey-secondary: #302E22; 
+  --offwhite: #ECECEC;
+
+  --mobilebody: 18px;
+  --webbody: 20px;
+  --webtitle: 2.5em;
+  --tablet-title: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  text-align: center;
+  margin: 2rem;
+}
+
+.subpage {
+  min-height: 60vh;
+  max-width: 85vw;
+  margin: 5rem auto;
+}
+
+.subpage-intro {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.subpage-intro h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.subpage-intro h4 {
+  font-weight: 400;
+}
+
+.subpage-resources-list {
+
+  list-style: none;
+  padding: 0;
+}
+
+.subpage-resources-list-item {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  
+}
+
+.subpage-resources-list-item:visited {
+  color: var(--grey-primary);
+}
+
+@media (min-width: 700px){
+  .subpage {
+    margin: 8rem auto;
+    width: 60vw;
+
+  }
+
+  .subpage-resources-list {
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 900px){
+  .subpage {
+    margin: 8rem auto;
+    width: 40vw;
+
+  }
+
+}

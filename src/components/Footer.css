@@ -1,0 +1,36 @@
+footer {
+    font-family: 'Jost';
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 60vw;
+    padding: 0.5rem;
+}
+
+.footer-left {
+    flex-grow: 1;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.footer-right {
+    font-size: 1rem;
+    flex-grow: 1;
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 700px) {
+    footer {
+        width: auto;
+        padding: 1rem 2rem;
+    }
+
+    .footer-right {
+        text-align: right;
+    }
+}
+
+@media (min-width: 900px) {
+    footer {
+        font-size: 1rem;
+    }
+}

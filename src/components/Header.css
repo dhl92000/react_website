@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--grey-primary);
+}
+
+.header {
+    background-color:rgba(255, 255, 255, 1);
+    color: var(--grey-primary);
+    font-family: 'Jost';
+    font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.1s ease-in-out;
+    /* margin-top: 0.5rem; */
+
+}
+
+.header.hidden {
+  transform: translateY(-120%);
+}
+
+.header.show {
+  transform: translateY(0);
+}
+
+.burger1, .burger2, .burger3 {
+  height: 0.15rem;
+  width: 2rem;
+  border-radius: 5px;
+  background-color: var(--grey-primary);
+  transition: all 0.3s linear;
+  /* X shape */
+  transform-origin: 1px;
+}
+
+.list-contact {
+    background-color: var(--lightblue-primary);
+}
+
+.logo {
+    padding: 6px;
+    margin-left: 1rem;
+}
+
+.menu li{
+    list-style: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+}
+
+.mobile-menu-button {
+    background: transparent;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    z-index: 2;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.mobile-list {
+    padding: 0px;
+}
+
+.mobile-list a:visited {
+    color: var(--lightblue-primary);
+}
+
+.mobile-list li{
+    margin: 4rem;
+}
+
+
+.mobile-nav-wrapper {
+    opacity: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 0%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--offwhite);
+    transition: opacity 0.75s, visibility 0.75s, height 0.75s;
+    visibility: hidden;
+    text-transform: uppercase;
+}
+
+.mobile-nav-wrapper.open {
+    opacity: 1;
+    height: 100vh;
+    visibility: visible;
+}
+
+
+
+.open .burger1 {
+    transform: rotate(45deg);
+}
+
+.open .burger2 {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.open .burger3 {
+    transform: rotate(-45deg);
+}
+
+.menu {
+    display: none;
+}
+
+
+
+@media (min-width: 750px){
+    .menu {
+        display: flex;
+    }
+    
+    .menu li {
+        display: inline;
+        margin: 10px;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }   
+}
+

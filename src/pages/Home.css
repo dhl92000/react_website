@@ -1,0 +1,248 @@
+main {
+    font-family: 'Jost';
+    font-size: var(--mobilebody);
+}
+
+.arrow {
+    color: var(--lightblue-primary);
+    margin-left: 5px;
+}
+
+.arrow-blog {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.banner {
+    background-color: var(--lightblue-seconday);
+    width: 120px;
+    text-align: right;
+    padding: 0.5rem 1.5rem;
+    margin: 4rem 0;
+}
+
+.blog-preview {
+    background-color: var(--taupe);
+    min-width: 160px;
+    max-width: 300px;
+    min-height: 150px;
+    /* font-size: 18px; */
+    position: relative;
+}
+
+.blog-preview p {
+    margin: 0;
+    line-height: 2;
+    padding: 20px;
+}
+
+.button-cta {
+    background-color: transparent;
+    border: none;
+    font-family: 'Jost';
+    color: var(--lightblue-primary);
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.button-cta p {
+    font-size: var(--mobilebody);
+}
+
+.button-cta-right {
+    background-color: transparent;
+    border: none;
+    font-family: 'Jost';
+    color: var(--lightblue-primary);
+    padding: 0;
+    float: inline-end;
+}
+
+.button-cta-right-text {
+    font-size: var(--mobilebody);
+}
+
+.container {
+    min-height: 200px;
+    max-width: 70vw;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.container-content1, .container-content2, .container-content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.container-content1 {
+    margin: 8rem auto;
+}
+
+.container-content2 {
+    gap: 0;
+}
+
+.profile-pic {
+    display: block;
+    /* max-width: 380px; */
+    max-width: 100%;
+    max-height: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.landing-title h1 {
+    font-family: 'Jost';
+    color: var(--offwhite);
+    margin: 0;
+    padding-left: 15px;
+}
+
+.landing-title {
+    /* border-width: 10px;
+    border-style: solid; */
+    /* fill in empty space, not just border */
+    border-image-slice: fill 1;
+    border-image-source: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-image: url('../assets/lumbardh-plluzhina-7NvBEeHDY7M-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position-x: center;
+    height: 100vh;
+    font-size: var(--webtitle);
+    line-height: 1.25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2.5rem;
+}
+
+.text-help {
+    margin: 0;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.text-intro {
+    text-align: justify;
+    line-height: 1.8rem;
+    margin: 0;
+
+}
+
+
+/* 
+display: block;
+max-inline-size: 100%;
+@media (min-width: 900px) and (max-width: 1439) {
+
+} */
+
+@media (min-width: 750px) {
+
+    
+    .banner {
+        width: 160px;
+    }
+
+    .blog-preview {
+        height: 16rem;
+        flex: 1 1 160px;
+    }
+
+    .container {
+        flex-direction: row;
+        max-width: 70vw;
+        margin-bottom: 8rem;
+    }
+
+    .container-content1, .container-content2, .container-content3 {
+        flex-direction: row;
+        align-items: center;
+        max-width: none;
+    }
+
+    .container-content1 {
+        margin: 10rem auto;
+        align-items: start;
+  
+    }
+
+    .container-content2 {
+        justify-content: space-around;
+        align-items: start;
+    }
+
+
+
+    .landing-title {
+        height: 70vh;
+        flex-direction: row;
+        font-size: var(--tablet-title);
+        align-items: center;
+    }
+
+    .landing-title h1 {
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .profile-pic {
+        max-height: 360px;
+    }
+
+    .service-list {
+        line-height: 3rem;
+    }
+
+    .text-intro {
+        max-width: 380px;
+        line-height: 1.8rem;
+    }
+}
+
+@media (min-width: 900px){
+    main {
+        font-size: var(--webbody);
+    }
+
+    .banner {
+        width: 15vw;
+    }
+
+    .button-cta p {
+        font-size: var(--webbody);
+    }
+
+    .button-cta-right-text {
+        font-size: var(--webbody);
+    }
+    .container {
+        max-width: 55vw;
+        font-size: var(--webbody);
+    }
+
+    .container-content1 {
+        align-items: center;
+              gap: 3rem;
+    }
+
+    .landing-title {
+        height: 100vh;
+        font-size: var(--webtitle);
+    }
+
+    .landing-title h1 {
+        margin: 0.5em;
+    }
+}
