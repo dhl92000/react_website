@@ -11,22 +11,21 @@ const Resources = () => {
         </h4>
       </section>
 
-      <div style={{padding:"none"}}>
+      <div style={{ padding: "none" }}>
         <ol className="subpage-resources-list">
           <li>
             <Link to="/resources-1" className="subpage-resources-list-item">
-              <span>1</span>Frequently Asked Questions For Buyers
+              1<span>Frequently Asked Questions For Buyers</span>
             </Link>
           </li>
           <li>
             <Link to="/resources-2" className="subpage-resources-list-item">
-              <span>2</span>A Step-By-Step Guide To The Homebuying Process
+              2<span>A Step-By-Step Guide To The Homebuying Process</span>
             </Link>
           </li>
           <li>
             <Link to="/resources-3" className="subpage-resources-list-item">
-              <span>3</span>
-              Leasing 101: An Introduction To Leasing For Tenants
+              3<span>Leasing 101: An Introduction To Leasing For Tenants</span>
             </Link>
           </li>
         </ol>

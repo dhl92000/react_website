@@ -27,8 +27,8 @@ main {
     min-width: 160px;
     max-width: 300px;
     min-height: 150px;
-    /* font-size: 18px; */
     position: relative;
+    z-index: 1;
 }
 
 .blog-preview p {

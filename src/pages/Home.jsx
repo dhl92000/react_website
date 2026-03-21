@@ -22,7 +22,7 @@ const Home = () => {
             <br />
             <button className="button-cta">
               <p>
-                <Link to="/contact" style={{color:"#688BBC"}}>
+                <Link to="/contact" style={{ color: "#688BBC" }}>
                   {" "}
                   Let's work together
                   <span className="arrow"> {"\u2192"}</span>
@@ -45,9 +45,9 @@ const Home = () => {
             <p className="text-help">How I Can Help</p>
             <button className="button-cta">
               <p>
-                <Link to="/contact" style={{color:"#688BBC"}}>              
-                Book a call
-                <span className="arrow"> {"\u2192"}</span>
+                <Link to="/contact" style={{ color: "#688BBC" }}>
+                  Book a call
+                  <span className="arrow"> {"\u2192"}</span>
                 </Link>
               </p>
             </button>
@@ -73,26 +73,33 @@ const Home = () => {
       <section className="container">
         <div className="container-content3">
           <div className="blog-preview">
-            <p>Frequently Asked Questions For Buyers</p>
-            <div className="arrow-blog"> {"\u2192"}</div>
+            <Link to="/resources-1">
+              <p>Frequently Asked Questions For Buyers</p>
+              <div className="arrow-blog"> {"\u2192"}</div>
+            </Link>
           </div>
           <div className="blog-preview">
-            <p>A Step-By-Step Guide To The Home-buying Process</p>
-            <div className="arrow-blog"> {"\u2192"}</div>
+            <Link to="/resources-2">
+              <p>A Step-By-Step Guide To The Home-buying Process</p>
+              <div className="arrow-blog"> {"\u2192"}</div>
+            </Link>
           </div>
           <div className="blog-preview">
+            <Link to="/resources-3">
             <p>Leasing 101: An Introduction To Leasing For Tenants </p>
             <div className="arrow-blog"> {"\u2192"}</div>
+            </Link>
           </div>
         </div>
         <button className="button-cta-right">
-          <p className="button-cta-right-text"><Link to="/resources" style={{color:"#688BBC"}}>Find more</Link></p>
+          <p className="button-cta-right-text">
+            <Link to="/resources" style={{ color: "#688BBC" }}>
+              Find more
+            </Link>
+          </p>
         </button>
       </section>
-      {/* <div className="container">
-        {" "} */}
       <Calltoaction />
-      {/* </div> */}
     </main>
   );
 };

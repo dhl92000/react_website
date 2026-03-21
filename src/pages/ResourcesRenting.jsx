@@ -5,7 +5,11 @@ const ResourcesRenting = () => {
     <div className="subpage">
       <section className="subpage-intro">
         <h1>Leasing 101: An Introduction To Leasing For Tenants</h1>
-        <h4>Whether it's your first time moving out, or wanting a change in your rental property, there's a lot to consider with leasing. Here are some things to know for first-time renters.</h4>
+        <h4>
+          Whether it's your first time moving out, or wanting a change in your
+          rental property, there's a lot to consider with leasing. Here are some
+          things to know for first-time renters.
+        </h4>
       </section>
 
       <h4>What is it like to work with me?</h4>
@@ -63,13 +67,13 @@ const ResourcesRenting = () => {
 
       <p>
         Just like the tenant, a guarantor should also prepare these documents:
-        <ul>
-          <li>Guarantor’s credit report</li>
-          <li>Employment letter</li>
-          <li>Pay stubs</li>
-          <li>References</li>
-        </ul>
       </p>
+      <ul>
+        <li>Guarantor’s credit report</li>
+        <li>Employment letter</li>
+        <li>Pay stubs</li>
+        <li>References</li>
+      </ul>
 
       <h4>Can you try applying for multiple properties at once? </h4>
 
