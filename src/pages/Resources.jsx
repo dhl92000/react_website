@@ -15,7 +15,7 @@ const Resources = () => {
         <ol className="subpage-resources-list">
           <li>
             <Link to="/resources-1" className="subpage-resources-list-item">
-              1<span>Frequently Asked Questions For Buyers</span>
+              <span>1</span>Frequently Asked Questions For Buyers
             </Link>
           </li>
           <li>

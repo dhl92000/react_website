@@ -67,9 +67,10 @@ blockquote {
   color: var(--grey-primary);
 }
 
-.subpage-resources-list-item:visited {
+a:visited, a:active {
   color: var(--grey-primary);
 }
+
 
 @media (min-width: 700px){
   .subpage {
