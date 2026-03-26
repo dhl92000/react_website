@@ -3,6 +3,10 @@ main {
     font-size: var(--mobilebody);
 }
 
+a:visited, a:active {
+  color: var(--grey-primary);
+}
+
 .arrow {
     color: var(--lightblue-primary);
     margin-left: 5px;
