@@ -22,7 +22,9 @@
 .cta-text {
     max-width: 70vw;
 }
-
+.form-group {
+  margin: 1rem 0;
+}
 h3 {
     font-size: var(--mobilebody);
     font-weight: 400;

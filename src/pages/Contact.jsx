@@ -23,14 +23,17 @@ const Contact = () => {
       <section className="subpage-intro">
         <h1>Contact</h1>
         <h4>
-          Working with a real estate agent can simplify the rental process for
-          you.
+          Working with a real estate agent can simplify the real estate process.
         </h4>
 
         <h4>
           My services include everything from finding properties for my clients,
           helping understand processes and paperwork, and handling negotiations.
           Just show up for your viewings and I will handle the rest.
+        </h4>
+
+        <h4>
+          Fill out the form below or feel free to send me a quick e-mail at <a href="mailto:spacesbydanny@gmail.com"><i>spacesbydanny@gmail.com</i></a>.
         </h4>
       </section>
       <form
