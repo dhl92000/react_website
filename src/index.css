@@ -23,6 +23,10 @@
   --tablet-title: 2em;
 }
 
+a, a:visited, a:active {
+  color: var(--grey-primary);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -66,11 +70,6 @@ blockquote {
   text-decoration: none;
   color: var(--grey-primary);
 }
-
-a:visited, a:active {
-  color: var(--grey-primary);
-}
-
 
 @media (min-width: 700px){
   .subpage {
