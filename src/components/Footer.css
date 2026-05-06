@@ -1,5 +1,5 @@
 footer {
-    font-family: 'Jost';
+    font-family: var(--serif-font);
     display: flex;
     flex-wrap: wrap-reverse;
     width: 60vw;
@@ -8,12 +8,12 @@ footer {
 
 .footer-left {
     flex-grow: 1;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0;
 }
 
 .footer-right {
-    font-size: 1rem;
+    font-size: 1.5rem;
     flex-grow: 1;
     margin: 0.5rem 0;
 }

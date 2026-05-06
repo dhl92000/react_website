@@ -1,5 +1,4 @@
 main {
-    font-family: 'Jost';
     font-size: var(--mobilebody);
 }
 
@@ -44,7 +43,8 @@ main {
 .button-cta {
     background-color: transparent;
     border: none;
-    font-family: 'Jost';
+    font-family: var(--serif-font);
+    font-weight: 600;
     color: var(--lightblue-primary);
     padding: 0;
     margin-bottom: 10px;
@@ -68,7 +68,7 @@ main {
 }
 
 .container {
-    min-height: 200px;
+    min-height: 300px;
     max-width: 70vw;
     margin: auto;
     margin-bottom: 4rem;
@@ -96,13 +96,14 @@ main {
     max-height: 350px;
     height: auto;
     object-fit: cover;
+    background-color: var(--taupe);
 }
 
 .landing-title h1 {
-    font-family: 'Jost';
+    font-family: var(--serif-font);
     color: var(--offwhite);
     margin: 0;
-    padding-left: 15px;
+    padding-left: 8px;
 }
 
 .landing-title {
@@ -141,7 +142,6 @@ main {
     text-align: justify;
     line-height: 1.8rem;
     margin: 0;
-
 }
 
 
@@ -203,6 +203,7 @@ max-inline-size: 100%;
 
     .profile-pic {
         max-height: 360px;
+        /* box-shadow: 50px -50px var(--taupe); */
     }
 
     .service-list {
@@ -231,14 +232,16 @@ max-inline-size: 100%;
     .button-cta-right-text {
         font-size: var(--webbody);
     }
+
     .container {
+        min-height: 40vh;
         max-width: 55vw;
         font-size: var(--webbody);
     }
 
     .container-content1 {
         align-items: center;
-              gap: 3rem;
+        gap: 3rem;
     }
 
     .landing-title {

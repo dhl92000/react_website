@@ -5,11 +5,11 @@ const ResourcesRenting = () => {
     <div className="subpage">
       <section className="subpage-intro">
         <h1>Leasing 101: An Introduction To Leasing For Tenants</h1>
-        <h4>
+        <p>
           Whether it's your first time moving out, or wanting a change in your
           rental property, there's a lot to consider with leasing. Here are some
           things to know for first-time renters.
-        </h4>
+        </p>
       </section>
 
       <h4>What is it like to work with me?</h4>

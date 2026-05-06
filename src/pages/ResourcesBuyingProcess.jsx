@@ -5,13 +5,13 @@ const ResourcesBuyingProcess = () => {
     <div className="subpage">
       <section className="subpage-intro">
         <h1>A Step-By-Step Guide To The Homebuying Process</h1>
-        <h4>
+        <p>
           Having a clear understanding of the homebuying process can help you
           determine what you can realistically afford before you start house
           hunting. Knowing to expect along the way can help you make informed
           decisions. Here's a brief outline to help you have greater
           confidence as a buyer.{" "}
-        </h4>
+        </p>
       </section>
       <h4>Prepare Your Finances Before You Start House Hunting</h4>
       <p>

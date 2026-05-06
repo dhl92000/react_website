@@ -13,13 +13,19 @@ const Home = () => {
       <section className="container">
         <div className="container-content1">
           <p className="text-intro">
-            Finding the right home in Toronto’s evolving real estate market
-            takes expertise and support you can trust. I help buyers, sellers,
-            and renters navigate properties throughout the Greater Toronto Area
-            with confidence. Whether you’re a first-time buyer searching in
-            areas like North York or the downtown core, I’ll work alongside you
-            with integrity and care, every step of the way.
-            <br />
+            <p>
+              Finding the right home in Toronto’s evolving real estate market
+              takes expertise and support you can trust.
+            </p>
+            <p>
+              I help buyers, sellers, and renters navigate properties throughout
+              the Greater Toronto Area with confidence.{" "}
+            </p>
+            <p>
+              Whether you’re a first-time buyer searching in areas like North
+              York or the downtown core, I’ll work alongside you with integrity
+              and care, every step of the way.
+            </p>
             <button className="button-cta">
               <p>
                 <Link to="/contact" style={{ color: "#688BBC" }}>
@@ -30,11 +36,11 @@ const Home = () => {
               </p>
             </button>
           </p>
-          <img
+          {/* <img
             aria-label="business profile headshot"
             className="profile-pic"
             src={profile}
-          />
+          /> */}
         </div>
       </section>
 
@@ -86,14 +92,21 @@ const Home = () => {
           </div>
           <div className="blog-preview">
             <Link to="/resources-3">
-            <p>Leasing 101: An Introduction To Leasing For Tenants </p>
-            <div className="arrow-blog"> {"\u2192"}</div>
+              <p>Leasing 101: An Introduction To Leasing For Tenants </p>
+              <div className="arrow-blog"> {"\u2192"}</div>
             </Link>
           </div>
         </div>
         <button className="button-cta-right">
           <p className="button-cta-right-text">
-            <Link to="/resources" style={{ color: "#688BBC" }}>
+            <Link
+              to="/resources"
+              style={{
+                color: "#688BBC",
+                fontFamily: "var(--serif-font)",
+                fontWeight: 500,
+              }}
+            >
               Find more
             </Link>
           </p>

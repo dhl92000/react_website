@@ -5,8 +5,9 @@ a {
 .header {
     background-color:rgba(255, 255, 255, 1);
     color: var(--grey-primary);
-    font-family: 'Jost';
+    font-family: var(--serif-font);
     font-size: 1.5rem;
+    letter-spacing: 0.05rem;
     width: 100%;
     position: fixed;
     top: 0;

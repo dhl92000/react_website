@@ -2,7 +2,8 @@
 .button-contact {
     background-color: transparent;
     border: none;
-    font-family: 'Jost';
+    font-family: var(--serif-font);
+    font-weight: 500;
     color: var(--lightblue-primary);
 }
 
@@ -36,7 +37,7 @@ h3 {
     }
 
     h3 {
-            font-size: var(--webbody);
+        font-size: var(--webbody);
     }
 }
 
