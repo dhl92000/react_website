@@ -96,14 +96,17 @@ main {
     max-height: 350px;
     height: auto;
     object-fit: cover;
+    object-position: top;
     background-color: var(--taupe);
 }
 
 .landing-title h1 {
     font-family: var(--serif-font);
+    font-weight: 400;
     color: var(--offwhite);
     margin: 0;
     padding-left: 8px;
+
 }
 
 .landing-title {
@@ -179,7 +182,6 @@ max-inline-size: 100%;
     .container-content1 {
         margin: 10rem auto;
         align-items: start;
-  
     }
 
     .container-content2 {
@@ -202,7 +204,7 @@ max-inline-size: 100%;
     }
 
     .profile-pic {
-        max-height: 360px;
+        max-height: 400px;
         /* box-shadow: 50px -50px var(--taupe); */
     }
 
@@ -212,7 +214,6 @@ max-inline-size: 100%;
 
     .text-intro {
         max-width: 380px;
-        line-height: 1.8rem;
     }
 }
 
@@ -252,4 +253,5 @@ max-inline-size: 100%;
     .landing-title h1 {
         margin: 0.5em;
     }
+
 }

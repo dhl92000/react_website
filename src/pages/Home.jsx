@@ -36,11 +36,11 @@ const Home = () => {
               </p>
             </button>
           </p>
-          {/* <img
+          <img
             aria-label="business profile headshot"
             className="profile-pic"
             src={profile}
-          /> */}
+          />
         </div>
       </section>
 
