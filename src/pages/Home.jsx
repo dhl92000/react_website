@@ -103,8 +103,8 @@ const Home = () => {
               to="/resources"
               style={{
                 color: "#688BBC",
-                fontFamily: "var(--serif-font)",
-                fontWeight: 500,
+                fontFamily: "var(--main-font)",
+                fontWeight: 400,
               }}
             >
               Find more

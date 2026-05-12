@@ -1,5 +1,5 @@
 footer {
-    font-family: var(--serif-font);
+    font-family: var(--main-font);
     display: flex;
     flex-wrap: wrap-reverse;
     width: 60vw;

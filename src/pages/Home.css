@@ -43,8 +43,8 @@ main {
 .button-cta {
     background-color: transparent;
     border: none;
-    font-family: var(--serif-font);
-    font-weight: 600;
+    font-family: var(--main-font);
+    font-weight: 400;
     color: var(--lightblue-primary);
     padding: 0;
     margin-bottom: 10px;
@@ -101,7 +101,7 @@ main {
 }
 
 .landing-title h1 {
-    font-family: var(--serif-font);
+    font-family: var(--main-font);
     font-weight: 400;
     color: var(--offwhite);
     margin: 0;
@@ -147,17 +147,7 @@ main {
     margin: 0;
 }
 
-
-/* 
-display: block;
-max-inline-size: 100%;
-@media (min-width: 900px) and (max-width: 1439) {
-
-} */
-
-@media (min-width: 750px) {
-
-    
+@media (min-width: 750px) {    
     .banner {
         width: 160px;
     }
@@ -189,8 +179,6 @@ max-inline-size: 100%;
         align-items: start;
     }
 
-
-
     .landing-title {
         height: 70vh;
         flex-direction: row;
@@ -205,7 +193,6 @@ max-inline-size: 100%;
 
     .profile-pic {
         max-height: 400px;
-        /* box-shadow: 50px -50px var(--taupe); */
     }
 
     .service-list {
@@ -253,5 +240,4 @@ max-inline-size: 100%;
     .landing-title h1 {
         margin: 0.5em;
     }
-
 }
