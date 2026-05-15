@@ -28,6 +28,11 @@ const Resources = () => {
               3<span>Leasing 101: An Introduction To Leasing For Tenants</span>
             </Link>
           </li>
+
+          {/* 
+          <li><Link>4<span>Additional Resources and Checklists</span></Link>
+          </li>
+          */}
         </ol>
       </div>
     </div>

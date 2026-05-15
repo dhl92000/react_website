@@ -18,7 +18,7 @@ const Home = () => {
               takes expertise and support you can trust.
             </p>
             <p>
-              I help buyers, sellers, and renters navigate properties throughout
+              I especially love helping first-time buyers and renters navigate properties throughout
               the Greater Toronto Area with confidence.{" "}
             </p>
             <p>

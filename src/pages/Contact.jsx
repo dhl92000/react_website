@@ -29,11 +29,15 @@ const Contact = () => {
         <h4>
           My services include everything from finding properties for my clients,
           helping understand processes and paperwork, and handling negotiations.
-          Just show up for your viewings and I will handle the rest.
         </h4>
 
+        <h4>Just show up for your viewings and I will handle the rest.</h4>
         <h4>
-          Fill out the form below or feel free to send me a quick e-mail at <a href="mailto:spacesbydanny@gmail.com"><i>spacesbydanny@gmail.com</i></a>.
+          Fill out the form below or feel free to send me a quick e-mail at{" "}
+          <a href="mailto:spacesbydanny@gmail.com">
+            <i>spacesbydanny@gmail.com</i>
+          </a>
+          .
         </h4>
       </section>
       <form
